@@ -113,7 +113,7 @@ const Dashboard: React.FC = () => {
                     {transaction.formattedValue}
                   </td>
                   <td>{transaction.category.title}</td>
-                  <td>20/04/2020</td>
+                  <td>{transaction.formattedDate}</td>
                 </tr>
               ))}
             </tbody>
